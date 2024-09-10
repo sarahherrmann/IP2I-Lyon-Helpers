@@ -1,0 +1,31 @@
+## Visualising geometry
+
+For instance launch the following command line in the O2 environment:
+
+o2-sim -n 1 -m ITS --configKeyValues "ITSBase.buildCYSSAssembly=0;ITSBase.buildEndWheels=0"
+
+It then creates the file o2sim_geometry.root
+
+You can open it in a TBrowser in root, and you can try to draw part of the geometry by going in the Master Volume folder (or blank folder here, there is a bug)
+You can then right click on part of the folder to see the name, or Draw the volume assembly inside the folders by clicking on Draw
+
+![[Browser-Volume.png]]
+In the discussion panel, type "ogl"
+![[Capture d’écran 2023-01-09 à 14.58.09.png | 300]]
+
+And then OK
+You should be able to visualise the geometry part that you have drawn, you can zoom in and out and rotate
+
+You should then have something like this:
+
+![[Capture d’écran 2023-01-09 à 15.05.37.png | 400]]
+
+If some parts of the detector are invisible and should be visible, it may be because the visibility level is too low, you can change the visibility level with`gGeoManager->SetVisLevel(5)`
+With 5 or more it should resolve the issue
+
+
+To see the FT0 too:
+
+o2-sim -m PIPE ITS MFT FT0 -e TGeant3 -g boxgen -n 1 --configKeyValues 'BoxGun.pdg=13 ; BoxGun.eta[0]=-3.0 ; BoxGun.eta[1]=-3.0; BoxGun.number=1'
+Easier:
+`o2-sim -n 1 -m MFT FT0`
