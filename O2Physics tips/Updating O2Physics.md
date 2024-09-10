@@ -1,4 +1,17 @@
-Prerequisites: You know of the website https://alice-doc.github.io/alice-analysis-tutorial/building/ and you followed the instructions
+# Updating O2Physics: Tips and tricks
+## Prerequisites
+You know of the website https://alice-doc.github.io/alice-analysis-tutorial/building/ and you followed the instructions
+
+## Adding the environment variable to your terminal
+If it is the first time you installed O2Physics:
+
+On MacOS : in `~/.zprofile`, on linux, in `~/.bashrc` add the line :
+`export ALIBUILD_WORK_DIR="$HOME/alice/sw"`
+
+This enables your terminal to recognise the command 
+`alienv enter O2Physics/latest`
+
+## Updating O2Physics
 
 To update O2Physics, you have to do the following:
 `cd ~/alice`
