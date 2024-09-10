@@ -2,7 +2,7 @@
 
 For instance launch the following command line in the O2 environment:
 
-o2-sim -n 1 -m ITS --configKeyValues "ITSBase.buildCYSSAssembly=0;ITSBase.buildEndWheels=0"
+`o2-sim -n 1 -m ITS --configKeyValues "ITSBase.buildCYSSAssembly=0;ITSBase.buildEndWheels=0"`
 
 It then creates the file o2sim_geometry.root
 
@@ -12,10 +12,11 @@ You can then right click on part of the folder to see the name, or Draw the volu
 
 
 In the discussion panel, type "ogl"
+
 <img width="288" alt="Capture d’écran 2023-01-09 à 14 58 09" src="https://github.com/user-attachments/assets/3d0a8dd4-de45-4798-8897-dbf34c233af4">
 
-
 And then OK
+
 You should be able to visualise the geometry part that you have drawn, you can zoom in and out and rotate
 
 You should then have something like this:
@@ -28,6 +29,4 @@ With 5 or more it should resolve the issue
 
 To see the FT0 too:
 
-o2-sim -m PIPE ITS MFT FT0 -e TGeant3 -g boxgen -n 1 --configKeyValues 'BoxGun.pdg=13 ; BoxGun.eta[0]=-3.0 ; BoxGun.eta[1]=-3.0; BoxGun.number=1'
-Easier:
-`o2-sim -n 1 -m MFT FT0`
+`o2-sim -n 1 -m PIPE ITS MFT FT0`
