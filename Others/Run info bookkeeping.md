@@ -24,7 +24,9 @@ How to obtain information on a specific MC production ?
 Here we use the example of the MC production LHC21k6. 
 
 Go to https://alimonitor.cern.ch/ then production list $\rightarrow$ MC
+
 Search for LHC21k6 (command+F)
+
 Click on LHC21k6, it redirects you to the production table of this MC production, with all of the runs
 <img width="962" alt="Capture d’écran 2022-12-23 à 11 58 22" src="https://github.com/user-attachments/assets/edbabc6b-d5cc-4906-a5dd-3b5cc32653f0">
 
