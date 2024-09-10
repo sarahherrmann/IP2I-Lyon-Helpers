@@ -8,8 +8,9 @@ It then creates the file o2sim_geometry.root
 
 You can open it in a TBrowser in root, and you can try to draw part of the geometry by going in the Master Volume folder (or blank folder here, there is a bug)
 You can then right click on part of the folder to see the name, or Draw the volume assembly inside the folders by clicking on Draw
+<img width="781" alt="Browser-Volume" src="https://github.com/user-attachments/assets/411107be-87b0-4b9f-82a3-a9e19b1eb9f8">
 
-![[Browser-Volume.png]]
+
 In the discussion panel, type "ogl"
 ![[Capture d’écran 2023-01-09 à 14.58.09.png | 300]]
 
