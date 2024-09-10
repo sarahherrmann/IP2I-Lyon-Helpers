@@ -1,4 +1,6 @@
-# How to access the information of runs when not at CERN
+# How to access the information of runs
+## In data
+When at CERN simply have a look at the website ali-bookkeeping.cern.ch.
 
 The website ali-bookkeeping.cern.ch is not accessible when not on the CERN site, so to access it one needs to log in a CERN desktop. 
 Install Remote Desktop Client
@@ -19,7 +21,7 @@ Here for this run you can click on the log created automatically (the one author
 If you are looking for the MFT ROF, you can go and look for **MFT_STROBE** , for instance MFT_STROBE=198 (gives you the length in BC)
 
 
-## Access to MC production information in AliMonitor 
+## In MC : Access to MC production information in AliMonitor 
 How to obtain information on a specific MC production ? 
 Here we use the example of the MC production LHC21k6. 
 
