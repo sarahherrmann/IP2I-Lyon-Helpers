@@ -12,14 +12,15 @@ You can then right click on part of the folder to see the name, or Draw the volu
 
 
 In the discussion panel, type "ogl"
-![[Capture d’écran 2023-01-09 à 14.58.09.png | 300]]
+<img width="288" alt="Capture d’écran 2023-01-09 à 14 58 09" src="https://github.com/user-attachments/assets/3d0a8dd4-de45-4798-8897-dbf34c233af4">
+
 
 And then OK
 You should be able to visualise the geometry part that you have drawn, you can zoom in and out and rotate
 
 You should then have something like this:
 
-![[Capture d’écran 2023-01-09 à 15.05.37.png | 400]]
+<img width="777" alt="Capture d’écran 2023-01-09 à 15 05 37" src="https://github.com/user-attachments/assets/64530d25-eb87-42c3-b823-3071bf3c51fb">
 
 If some parts of the detector are invisible and should be visible, it may be because the visibility level is too low, you can change the visibility level with`gGeoManager->SetVisLevel(5)`
 With 5 or more it should resolve the issue
